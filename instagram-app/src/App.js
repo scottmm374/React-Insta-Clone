@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <SearchBar />
-        <PostCont instagramData={this.state.posts} />
+        <PostCont posts={this.state.instagramData} />
       </div>
     )
   }

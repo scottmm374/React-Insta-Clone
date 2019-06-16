@@ -7,7 +7,7 @@ const PostHead = props => {
     return (
         <div className="postHeader">
             <div>
-            <img alt="postHead" src={props.thumbnailURL} />
+            <img alt="postHead" src={props.thumbnailUrl} />
         
         </div>
         <div>
