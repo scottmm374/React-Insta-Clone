@@ -11,19 +11,16 @@ class CommentSection extends React.Component {
             comments: props.comments
         };
     }
-}
-    render () {
+
+    render() {
         return (
             <div>
                 {this.state.comments.map((com, index) =>
-                    <Comment key={index} comment={com} />}
-                    // <CommmentInput />
-
-             </div>
-    
-        )
+                    <Comment key={index} comment={com} />)}
+                   <CommmentInput />
+            </div>
+        );
     }
-
 }
 
 
