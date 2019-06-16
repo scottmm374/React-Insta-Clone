@@ -2,10 +2,14 @@ import React from 'react';
 
 const PostHead = props => {
     return (
-        <div>
-            
+        <div className="postHead">
+            <img alt="postHead" src={props.thumbnailURL} />
+        
         </div>
-    )
+        <div>
+            {props.username}
+        </div>
+    );
 }
 
 

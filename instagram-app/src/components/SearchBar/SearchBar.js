@@ -5,11 +5,8 @@ function SearchBar () {
     return (
         <div>
             <header>
-               {/* <img src={cameraLogo} /> */}
-                <img></img>
                 <form><input placeholder="Search" type="text"/></form>
-                
-               
+                 
             </header>
         </div>
     )
