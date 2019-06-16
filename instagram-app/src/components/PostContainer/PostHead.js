@@ -1,11 +1,16 @@
 import React from 'react';
 
-
-const PostCont = props => {
+const PostHead = props => {
     return (
         <div>
             
         </div>
     )
 }
-export default PostCont;
+
+
+
+
+
+
+export default PostHead;
