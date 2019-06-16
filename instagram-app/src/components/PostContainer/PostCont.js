@@ -5,8 +5,8 @@ import Post from './Post';
 const PostCont = props => {
     return (
         <div className="postContainer">
-            {props.posts.map(post => 
-                <Post key={post.imageURL} posts={post} />
+            {props.instagramData.map(post => 
+                <Post key={post.imageURL} instagramData={post} />
             )}
 
         </div>

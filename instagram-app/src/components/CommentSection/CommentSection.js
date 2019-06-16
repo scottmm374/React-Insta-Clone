@@ -1,6 +1,7 @@
 import React from 'react';
-import PostCont from "./PostCont";
+import PropTypes from 'prop-types';
 import Comment from './Comment';
+import CommentInput from './CommentInput';
 
 
 
@@ -27,6 +28,15 @@ CommentSection.propTypes = {
     comments: PropTypes.arrayOf(
         PropTypes.shape({ text: PropTypes.string, username: PropTypes.string })
     )
+};
+
+CommentSection.defaultProps = {
+    comments: [
+    {
+        text: "Hello",
+        username: "Bob"
+    }
+    ]
 };
 
 

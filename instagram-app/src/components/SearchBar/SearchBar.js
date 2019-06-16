@@ -6,8 +6,7 @@ function SearchBar () {
         <div>
             <header>
                 <form><input placeholder="Search" type="text"/></form>
-                 
-            </header>
+           </header>
         </div>
     )
 }
