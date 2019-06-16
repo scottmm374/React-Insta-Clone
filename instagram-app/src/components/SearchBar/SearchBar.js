@@ -1,16 +1,15 @@
 import React from 'react';
-import camera-logo from './assets/camera-logo.svg';
+// import cameraLogo from './assets/cameraLogo.svg';
 
 function SearchBar () {
     return (
         <div>
             <header>
-                <img src={camera-logo}/>
+               {/* <img src={cameraLogo} /> */}
                 <img></img>
-                <input></input>
-                <img></img>
-                <img></img>
-                <img></img>
+                <form><input placeholder="Search" type="text"/></form>
+                
+               
             </header>
         </div>
     )

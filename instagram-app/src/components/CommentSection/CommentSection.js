@@ -2,7 +2,21 @@ import React from 'react';
 import PostCont from "./PostCont";
 
 
-function CommentSection () {
+class CommentSection extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            comments: props.comments
+        };
+    }
+
+    render () {
+        return (
+            <div>
+                {}
+            </div>
+        )
+    }
 
 }
 
