@@ -17,11 +17,17 @@ class CommentSection extends React.Component {
             <div>
                 {this.state.comments.map((com, index) =>
                     <Comment key={index} comment={com} />)}
-                   <CommmentInput />
+                   <CommentInput />
             </div>
         );
     }
 }
+
+CommentSection.propTypes = {
+    comments: PropTypes.arrayOf(
+        PropTypes.shape({ text: PropTypes.string, username: PropTypes.string })
+    )
+};
 
 
 export default CommentSection;

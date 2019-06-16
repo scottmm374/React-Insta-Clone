@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from './Post';
 
 
 const PostCont = props => {
@@ -11,4 +12,5 @@ const PostCont = props => {
         </div>
     );
 }
+
 export default PostCont;
