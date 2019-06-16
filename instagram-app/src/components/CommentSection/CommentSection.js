@@ -1,5 +1,6 @@
 import React from 'react';
 import PostCont from "./PostCont";
+import Comment from './Comment';
 
 
 class CommentSection extends React.Component {
@@ -9,16 +10,20 @@ class CommentSection extends React.Component {
             comments: props.comments
         };
     }
-
+}
     render () {
         return (
             <div>
-                {}
-            </div>
+                {this.state.comments.map((com, index) =>
+                    <Comment key={index} comment={com} />}
+                    // <CommmentInput />
+
+             </div>
+    
         )
     }
 
 }
 
 
-export CommentSection;
+export default CommentSection;
