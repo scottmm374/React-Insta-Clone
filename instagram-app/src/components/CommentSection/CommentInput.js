@@ -4,7 +4,7 @@ const CommentInput = props => {
     console.log("CommentInput", props)
     return (
         <form>
-            <input type="text" placeholder="Add a Comment..." />
+            <input type="text" placeholder="Add a Comment" />
         </form>
     );
 };

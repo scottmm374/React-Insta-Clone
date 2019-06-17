@@ -9,11 +9,10 @@ const PostCont = props => {
     return (
         <div className="postContainer">
             {props.posts.map(post => 
-                <Post key={post.imageURL} postCont={post} />
+                <Post key={post.id} postCont={post} />
             )}
-
         </div>
     );
-}
+};
 
 export default PostCont;

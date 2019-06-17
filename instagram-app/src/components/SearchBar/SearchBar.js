@@ -1,11 +1,12 @@
 import React from 'react';
-// import iglogo from '.../assets/iglogo.png';
+// import cameraLogo from '../assets/cameraLogo.svg';
+
 
 function SearchBar() {
     return (
         <div className="searchContainer">
             <div className="imageCont">
-                {/* <img alt="Instagram Logo" src={iglogo} className="logo" /> */}
+                {/* <img alt="camera" src={cameraLogo} className="cameraImg" /> */}
             </div>
             <div>
                 <form><input placeholder="Search" type="text" /></form>

@@ -4,7 +4,7 @@ import './Post.css';
 // Post images and username
 
 const PostHead = props => {
-    console.log("PostCont", props)
+    console.log("PostHead", props)
     return (
         <div className="postHeader">
             <div className="postThumbWrap">
